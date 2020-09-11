@@ -3,8 +3,8 @@
 return [
     'class' => 'yii\db\Connection',
     'dsn' => 'sqlsrv:Server=DESKTOP-VDNJKAA;Database=Movies',
-    'username' => 'DanielPhillips2000',
-    'password' => 'LanGerTon200',
+    'username' => '',
+    'password' => '',
     'charset' => 'utf8',
 
     // Schema cache options (for production environment)
