@@ -2,7 +2,7 @@
 
 $params = require __DIR__ . '/params.php';
 $db = require __DIR__ . '/db.php';
-$formatter = require __DIR__ . '/formatter.php';
+
 
 $config = [
     'id' => 'basic-console',
@@ -36,7 +36,7 @@ $config = [
         'db' => $db,
     ],
     'params' => $params,
-    'formatter' => $formatter,
+    
     /*
     'controllerMap' => [
         'fixture' => [ // Fixture generation command line.
